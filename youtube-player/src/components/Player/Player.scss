@@ -1,0 +1,7 @@
+.player {
+    flex:3;
+
+    &  > :first-child{
+        height: 100%;
+    }
+}

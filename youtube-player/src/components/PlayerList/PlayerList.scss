@@ -1,0 +1,84 @@
+.player-form-wrapper{
+    background: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+}
+
+.player-list-container{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    flex: 2;
+    padding: 0 10px 10px 10px;
+    position: relative;
+}
+
+.player-form{
+    display: flex;
+    & input{
+        flex:5;
+        max-width: 500px;
+        border-radius: 10px;
+        padding: 0 18px;
+        font-size: 16px;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+    }
+}
+
+/* CSS */
+.add-button {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  padding: calc(0.6rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+
+  &:hover, 
+  &:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+
+  &:active{
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+  }
+}
+
+.remove-button{
+  width: 25px;
+  height: 25px;
+  align-self: center;
+  border-radius: 50px;
+  background: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+
+  &:hover{
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+}
